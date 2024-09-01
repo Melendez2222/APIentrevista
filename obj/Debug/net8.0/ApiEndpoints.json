@@ -1,0 +1,316 @@
+[
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.ClienteController",
+    "Method": "listarCliente",
+    "RelativePath": "CLIENT/ClientAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.ClienteController",
+    "Method": "GetOne",
+    "RelativePath": "CLIENT/ClientId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.ClienteController",
+    "Method": "CrearCliente",
+    "RelativePath": "CLIENT/CreateClient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "APIENTREVISTA2.Models.ClienteC",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.ClienteController",
+    "Method": "EliminarCliente",
+    "RelativePath": "CLIENT/DeleteClientid",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.ClienteController",
+    "Method": "ActualizarCliente",
+    "RelativePath": "CLIENT/UpdateClient",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "cliente",
+        "Type": "APIENTREVISTA2.Models.ClienteDB",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.DetalleFactController",
+    "Method": "CrearFactura",
+    "RelativePath": "INVOICE_DETAIL/CreateDetalleFactura",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DFactura",
+        "Type": "APIENTREVISTA2.Models.DetalleFacturaC",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.DetalleFactController",
+    "Method": "DetalleFactura",
+    "RelativePath": "INVOICE_DETAIL/ListAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.PersonalController",
+    "Method": "CrearPersonal",
+    "RelativePath": "Persons/CreatePerson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personalDTO",
+        "Type": "APIENTREVISTA2.Models.Personal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.PersonalController",
+    "Method": "Get",
+    "RelativePath": "Persons/ListAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APIENTREVISTA2.Models.Personal, APIENTREVISTA2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.PersonalController",
+    "Method": "GetOne",
+    "RelativePath": "Persons/PersonId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.PersonalController",
+    "Method": "ActualizarPerson",
+    "RelativePath": "Persons/UpdatePerson",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "personal",
+        "Type": "APIENTREVISTA2.Models.Personal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.ProductoController",
+    "Method": "Crearproducto",
+    "RelativePath": "PRODUCT/CreateProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productoC",
+        "Type": "APIENTREVISTA2.Models.ProductoC",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.ProductoController",
+    "Method": "EliminarProduct",
+    "RelativePath": "PRODUCT/DeleteProductid",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.ProductoController",
+    "Method": "Get",
+    "RelativePath": "PRODUCT/ListAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APIENTREVISTA2.Models.Producto, APIENTREVISTA2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.ProductoController",
+    "Method": "GetOne",
+    "RelativePath": "PRODUCT/ListProductOne",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "PRODUCT/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.ProductoController",
+    "Method": "ActualizarProducto",
+    "RelativePath": "PRODUCT/UpdateProduct",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "producto",
+        "Type": "APIENTREVISTA2.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.FacturaController",
+    "Method": "CrearFactura",
+    "RelativePath": "RECEIPT/CreateFactura",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "factura",
+        "Type": "APIENTREVISTA2.Models.FacturaC",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIENTREVISTA2.Controllers.FacturaController",
+    "Method": "ListarFactura",
+    "RelativePath": "RECEIPT/LastFactura",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
